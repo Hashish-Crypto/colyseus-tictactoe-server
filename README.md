@@ -33,11 +33,11 @@ Open Cocos Dashboard and add this project.
   [`@colyseus/monitor`](https://github.com/colyseus/colyseus-monitor)
 - `src/rooms/MyRoom.ts`: an empty room handler for you to implement your logic
 - `src/rooms/schema/MyRoomState.ts`: an empty schema used on your room's state.
-- `loadtest/example.ts`: scriptable client for the loadtest tool (see `npm run loadtest`)
+- `loadtest/example.ts`: scriptable client for the loadtest tool (see `yarn run loadtest`)
 - `package.json`:
   - `scripts`:
-    - `npm start`: runs `ts-node-dev index.ts`
-    - `npm run loadtest`: runs the [`@colyseus/loadtest`](https://github.com/colyseus/colyseus-loadtest/) tool for
+    - `yarn start`: runs `ts-node-dev index.ts`
+    - `yarn run loadtest`: runs the [`@colyseus/loadtest`](https://github.com/colyseus/colyseus-loadtest/) tool for
       testing the connection, using the `loadtest/example.ts` script.
 - `tsconfig.json`: TypeScript configuration file
 
