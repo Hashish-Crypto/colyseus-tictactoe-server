@@ -3,6 +3,8 @@
 Turn-based demonstration project using [Colyseus 0.14.0](https://www.colyseus.io/) and
 [Cocos Creator 3.4.2](https://www.cocos.com/en/creator).
 
+Project inspired by [github.com/colyseus/cocos-demo-tictactoe](https://github.com/colyseus/cocos-demo-tictactoe).
+
 This project has been created using [⚔️ `create-colyseus-app`](https://github.com/colyseus/create-colyseus-app/) - an
 npm init template for kick starting a Colyseus project in TypeScript.
 
@@ -13,8 +15,8 @@ npm init template for kick starting a Colyseus project in TypeScript.
 ```
 git clone https://github.com/Hashish-Crypto/colyseus-tictactoe-server.git
 cd colyseus-tictactoe-server
-npm install
-npm start
+yarn install
+yarn start
 ```
 
 ## Running the client locally
