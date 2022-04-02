@@ -85,6 +85,7 @@ export class TicTacToe extends Room<State> {
   checkWin(x: any, y: any, move: any) {
     let won = false
     const board = this.state.board
+    console.log('first: ', x, y)
 
     // horizontal
     for (let y = 0; y < BOARD_WIDTH; y++) {
@@ -132,6 +133,7 @@ export class TicTacToe extends Room<State> {
         won = true
       }
     }
+    console.log('second: ', x, y)
 
     return won
   }
